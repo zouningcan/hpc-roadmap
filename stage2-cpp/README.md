@@ -10,7 +10,7 @@
 | 1 | C++ 基础与字符串 | [01-cpp-basics](01-cpp-basics/) | L2-L3 | ✅ | ✅ |
 | 2 | Vector/Grid 与测试 | [02-vector-grid](02-vector-grid/) | L4 | ✅ | ✅ |
 | 3 | 栈与队列 | [03-stack-queue](03-stack-queue/) | L5 | ✅ | ✅ |
-| 4 | Set 与 Map | 04-set-map | L6 | ⬜ | ⬜ |
+| 4 | Set 与 Map | [04-set-map](04-set-map/) | L6 | ✅ | ✅ |
 | 5 | Big-O 与算法分析 | 05-bigo | L7 | ⬜ | ⬜ |
 | 6 | 递归 | 06-recursion | L8-L10 | ⬜ | ⬜ |
 | 7 | 递归回溯 | 07-backtracking | L11-L12 | ⬜ | ⬜ |
