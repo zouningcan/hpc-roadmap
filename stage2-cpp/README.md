@@ -13,7 +13,7 @@
 | 4 | Set 与 Map | [04-set-map](04-set-map/) | L6 | ✅ | ✅ |
 | 5 | Big-O 与算法分析 | [05-bigo](05-bigo/) | L7 | ✅ | ✅ |
 | 6 | 递归 | [06-recursion](06-recursion/) | L8-L10 | ✅ | ✅ |
-| 7 | 递归回溯 | 07-backtracking | L11-L12 | ⬜ | ⬜ |
+| 7 | 递归回溯 | [07-backtracking](07-backtracking/) | L11-L12 | ✅ | ✅ |
 | 8 | 排序算法 | 08-sorting | L13 | ⬜ | ⬜ |
 | 9 | OOP、指针与动态内存 | 09-oop-pointers | L15-L17 | ⬜ | ⬜ |
 | 10 | 优先队列与堆 | 10-pqheap | L18 | ⬜ | ⬜ |
