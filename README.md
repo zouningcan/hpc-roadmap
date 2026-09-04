@@ -16,7 +16,7 @@
 
 | 阶段 | 内容 | 模块数 | 状态 |
 |------|------|--------|------|
-| [stage1-tools](stage1-tools/) | MIT《The Missing Semester》 | 11 讲 | 🔄 1-2 讲已完成授课，讲义迁移中 |
+| [stage1-tools](stage1-tools/) | MIT《The Missing Semester》 | 11 讲 | ✅ **完成（11/11）** 2026-09-05 |
 | [stage2-cpp](stage2-cpp/) | Stanford CS106B（C++ 编程抽象） | ~10 模块 | ⬜ 待建 |
 | [stage3-dsa](stage3-dsa/) | 清华邓俊辉《数据结构》 | ~11 模块 | ⬜ 待建 |
 | [stage4-parallel](stage4-parallel/) | Slurm/perf/OpenMP/MPI/CUDA/CSE234 | ~8 模块 | ⬜ 待建 |
@@ -27,7 +27,7 @@
 
 1. 按阶段顺序学；每模块先读 `notes.md`，再做 `exercises.md`
 2. 做错的题记进 `progress/progress.md` 的错题本，`drills/` 会从中抽题
-3. WSL 侧路径：`/mnt/c/Users/znc20/hpc-roadmap`
+3. WSL 侧路径：`/mnt/d/znc/智谱/hpc-roadmap`（远端：https://github.com/zouningcan/hpc-roadmap）
 
 ## 行尾约定
 

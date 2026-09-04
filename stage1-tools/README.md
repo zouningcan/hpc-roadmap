@@ -15,4 +15,6 @@
 | 8 | 元编程 | [08-metaprogramming](08-metaprogramming/) | ✅ | ✅ 含答案 | make/依赖管理/CI/测试，比赛build脚本的正式学问 |
 | 9 | 安全和密码学 | [09-security-crypto](09-security-crypto/) | ✅ | ✅ 含答案 | 熵/哈希/KDF/对称非对称/SSH挑战应答 |
 | 10 | 大杂烩 | [10-potpourri](10-potpourri/) | ✅ | ✅ 含答案 | daemon/systemd/FUSE/备份原则/API+jq（练习为本仓库设计） |
-| 11 | 提问&回答 | 11-qa | ⬜ | ⬜ | 官方第 11 讲 /2020/qa/ |
+| 11 | 提问&回答 | [11-qa](11-qa/) | ✅ | ✅ 含答案 | stage1 综合复习+结业考（12问速答+综合动手） |
+
+> **🎉 stage1 完成于 2026-09-05**：11/11 模块全部具备"官方讲义来源 + 讲义 + 分层练习 + 答案"。结业标准 = 11-qa/exercises.md 全卷通过。
