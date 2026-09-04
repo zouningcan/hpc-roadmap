@@ -11,7 +11,7 @@
 | 4 | 数据整理 | [04-data-wrangling](04-data-wrangling/) | ✅ | ✅ 含答案 | 正则/sed/awk/统计流水线，自造数据集可复现 |
 | 5 | 命令行环境 | [05-command-line-env](05-command-line-env/) | ✅ | ✅ 含答案 | 信号（SIGHUP🕷）/作业控制/tmux/别名/dotfiles/SSH，实战教学内容已收编 |
 | 6 | 版本控制（Git） | [06-git](06-git/) | ✅ | ✅ 含答案 | 含真实推送排障案例（insteadOf重写/静默假成功/SSH-443） |
-| 7 | 调试及性能分析 | 07-debugging-profiling | ⬜ | ⬜ | perf 入门，超刚需 |
+| 7 | 调试及性能分析 | [07-debugging-profiling](07-debugging-profiling/) | ✅ | ✅ 含答案 | perf/cProfile/调试方法论，超算刚需第一 |
 | 8 | 元编程 | 08-metaprogramming | ⬜ | ⬜ | make/依赖管理/CI |
 | 9 | 查找与文件 | 09-find-files | ⬜ | ⬜ | |
 | 10 | 安全和密码学 | 10-security-crypto | ⬜ | ⬜ | |
