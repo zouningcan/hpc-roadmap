@@ -1,0 +1,34 @@
+# HPC 超算学习路线仓库
+
+> 目标：从零基础到能打超算比赛（ASC / SC / ISC 校内选拔）
+> 建立时间：2026-09-04 ｜ 维护方式：每个模块 = 官方教材搜索 → 浓缩讲义 → 教育性练习
+
+## 这是什么
+
+一个自包含的学习仓库：四个阶段，每个模块（一讲/一章）一个目录，内含两样东西——
+
+- `notes.md`：基于**官方讲义/教材**（联网搜索后浓缩）的讲义，注明来源链接
+- `exercises.md`：分层练习（概念题 → 动手题 → 挑战题），每题标注**考察点**与**常见误区**
+
+配套机制：`drills/`（学长突袭题库，跨模块随机复习）、`progress/progress.md`（进度与错题本）。
+
+## 阶段导览
+
+| 阶段 | 内容 | 模块数 | 状态 |
+|------|------|--------|------|
+| [stage1-tools](stage1-tools/) | MIT《The Missing Semester》 | 11 讲 | 🔄 1-2 讲已完成授课，讲义迁移中 |
+| [stage2-cpp](stage2-cpp/) | Stanford CS106B（C++ 编程抽象） | ~10 模块 | ⬜ 待建 |
+| [stage3-dsa](stage3-dsa/) | 清华邓俊辉《数据结构》 | ~11 模块 | ⬜ 待建 |
+| [stage4-parallel](stage4-parallel/) | Slurm/perf/OpenMP/MPI/CUDA/CSE234 | ~8 模块 | ⬜ 待建 |
+
+另有：[competitions/](competitions/)（三大竞赛赛制 + HelloHPC 真题分析）、[docs/00-路线总览.md](docs/00-路线总览.md)（原始路线图）。
+
+## 怎么用
+
+1. 按阶段顺序学；每模块先读 `notes.md`，再做 `exercises.md`
+2. 做错的题记进 `progress/progress.md` 的错题本，`drills/` 会从中抽题
+3. WSL 侧路径：`/mnt/c/Users/znc20/hpc-roadmap`
+
+## 行尾约定
+
+本仓库所有文本文件 **LF** 行尾（`.gitattributes` 强制）。Windows 记事本编辑会引入 CRLF，请用 VSCode（右下角确认 LF）。
