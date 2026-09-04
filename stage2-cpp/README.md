@@ -8,7 +8,7 @@
 | # | 模块 | 目录 | 对应官方讲次 | 讲义 | 练习 |
 |---|------|------|--------------|------|------|
 | 1 | C++ 基础与字符串 | [01-cpp-basics](01-cpp-basics/) | L2-L3 | ✅ | ✅ |
-| 2 | Vector/Grid 与测试 | 02-vector-grid | L4 | ⬜ | ⬜ |
+| 2 | Vector/Grid 与测试 | [02-vector-grid](02-vector-grid/) | L4 | ✅ | ✅ |
 | 3 | 栈与队列 | 03-stack-queue | L5 | ⬜ | ⬜ |
 | 4 | Set 与 Map | 04-set-map | L6 | ⬜ | ⬜ |
 | 5 | Big-O 与算法分析 | 05-bigo | L7 | ⬜ | ⬜ |
