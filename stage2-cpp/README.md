@@ -16,7 +16,7 @@
 | 7 | 递归回溯 | [07-backtracking](07-backtracking/) | L11-L12 | ✅ | ✅ |
 | 8 | 排序算法 | [08-sorting](08-sorting/) | L13 | ✅ | ✅ |
 | 9 | OOP、指针与动态内存 | [09-oop-pointers](09-oop-pointers/) | L15-L17 | ✅ | ✅ |
-| 10 | 优先队列与堆 | 10-pqheap | L18 | ⬜ | ⬜ |
+| 10 | 优先队列与堆 | [10-pqheap](10-pqheap/) | L18 | ✅ | ✅ |
 | 11 | 链表 | 11-lists | L19-L20 | ⬜ | ⬜ |
 | 12 | 二叉树/BST/Huffman | 12-trees | L21-L23 | ⬜ | ⬜ |
 | 13 | 哈希 | 13-hashing | L24 | ⬜ | ⬜ |
