@@ -13,6 +13,6 @@
 | 6 | 版本控制（Git） | [06-git](06-git/) | ✅ | ✅ 含答案 | 含真实推送排障案例（insteadOf重写/静默假成功/SSH-443） |
 | 7 | 调试及性能分析 | [07-debugging-profiling](07-debugging-profiling/) | ✅ | ✅ 含答案 | perf/cProfile/调试方法论，超算刚需第一 |
 | 8 | 元编程 | [08-metaprogramming](08-metaprogramming/) | ✅ | ✅ 含答案 | make/依赖管理/CI/测试，比赛build脚本的正式学问 |
-| 9 | 查找与文件 | 09-find-files | ⬜ | ⬜ | |
-| 10 | 安全和密码学 | 10-security-crypto | ⬜ | ⬜ | |
-| 11 | 大杂烩 | 11-misc | ⬜ | ⬜ | |
+| 9 | 安全和密码学 | [09-security-crypto](09-security-crypto/) | ✅ | ✅ 含答案 | 熵/哈希/KDF/对称非对称/SSH挑战应答 |
+| 10 | 大杂烩 | 10-potpourri | ⬜ | ⬜ | 官方第 10 讲 /2020/potpourri/（daemon/备份/远程等） |
+| 11 | 提问&回答 | 11-qa | ⬜ | ⬜ | 官方第 11 讲 /2020/qa/ |
