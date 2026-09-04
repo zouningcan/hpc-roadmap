@@ -5,11 +5,11 @@
 
 | # | 模块 | 目录 | 讲义 | 练习 | 备注 |
 |---|------|------|------|------|------|
-| 1 | 课程概览与 Shell | [01-shell](01-shell/) | 🔄迁移中 | 🔄迁移中 | 已完成授课+考察（2026-09-03，两轮补考） |
-| 2 | Shell 工具与脚本 | [02-shell-tools-scripting](02-shell-tools-scripting/) | 🔄迁移中 | 🔄迁移中 | 授课中（考察进行中） |
-| 3 | 编辑器（Vim） | 03-vim | ⬜ | ⬜ | |
+| 1 | 课程概览与 Shell | [01-shell](01-shell/) | ✅ | ✅ 含答案 | 已完成授课+考察（实战两轮补考，错题已编入练习 🕷） |
+| 2 | Shell 工具与脚本 | [02-shell-tools-scripting](02-shell-tools-scripting/) | ✅ | ✅ 含答案 | 授课中；⚠️ 结构修正：tmux/ssh/信号官方属第 5 讲，将在模块 05 展开 |
+| 3 | 编辑器（Vim） | [03-vim](03-vim/) | ✅ | ✅ 含答案 | 动手为核心：vimtutor + 最小按键挑战 |
 | 4 | 数据整理 | 04-data-wrangling | ⬜ | ⬜ | grep/sed/awk |
-| 5 | 命令行环境 | 05-command-line-env | ⬜ | ⬜ | 作业控制/dotfiles/SSH 进阶 |
+| 5 | 命令行环境 | 05-command-line-env | ⬜ | ⬜ | 作业控制/信号（SIGHUP）/tmux/dotfiles/SSH |
 | 6 | 版本控制（Git） | 06-git | ⬜ | ⬜ | |
 | 7 | 调试及性能分析 | 07-debugging-profiling | ⬜ | ⬜ | perf 入门，超刚需 |
 | 8 | 元编程 | 08-metaprogramming | ⬜ | ⬜ | make/依赖管理/CI |
