@@ -30,9 +30,9 @@
 ⬜ 未开始（预计第 21 周）
 
 ## 当前待交作业（第 5 讲 命令行环境）
-- [ ] Q1 🕷 复仇题：断线死亡五环节链条，必须含信号名（上次答错 sshd/SIGHUP 的正式复仇局）
-- [ ] Q2 概念：SIGTERM vs SIGKILL 本质区别 + 为什么先礼后兵
-- [ ] Q3 动手：信号实验（kill -TERM / -STOP / -CONT，每步先预测再验证）
+- [x] Q1 复仇题：⏭️ 跳过（用户："这种不用背"）——SIGHUP 链入突袭库滚动复习
+- [x] Q2 概念：✅ 2026-09-05（"TERM 留余地可询问保存 / KILL 拔线无缓和、卡死时用"——本质对；已补术语：可捕获性，及 KILL 不留清理机会的风险）
+- [x] Q3 动手：✅ TERM→Terminated、STOP→Stopped 全中；输出里 Running+Stopped 双行=异步通知竞态已讲；CONT 步漏跑；末尾 pkill sleep 踩雷：SIGTERM 发给 STOP 态进程会 pending 不死（signal(7)），待 pgrep 验证+`pkill -9` 补杀；& 的机制（fork 不 wait/作业号 vs PID 两套地址/异步类比）已系统讲授
 - [ ] Q4 动手：解读自己 ~/.ssh/config 每行含义（含：当年为什么写 Port 443）
 - [ ] Q5 快答：nohup vs tmux 各自的"逃法"与适用场景
 （第 4 讲收卷记录：Q1 uniq"只看邻居"机制✅；Q2 正则阅读 4/5+替换端 \1 占位符✅；Q3 口头预判出并列✅但预测 winner 错——GNU sort 默认 last-resort 整行兜底、-r 连兜底一起翻转→实际 root 赢，"严格大于才换位"是 -s 稳定模式的行为；实测输出未贴，赌局未裁决；Q4 sed 自截断两步时间线讲透+实验跑、一句话复述未收——两层模型第 4 次出场未闭环；Q5 两语境 $1 / sort -n -k 参数讲授即收，入突袭库）
