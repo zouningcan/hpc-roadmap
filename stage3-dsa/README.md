@@ -13,7 +13,7 @@
 | 4 | 栈与队列 | [04-stack-queue](04-stack-queue/) | ✅ | ✅ |
 | 5 | 串与 KMP | [05-string-kmp](05-string-kmp/) | ✅ | ✅ |
 | 6 | 树：二叉树/BST/AVL | [06-trees](06-trees/) | ✅ | ✅ |
-| 7 | 高级搜索树（B 树/红黑树基础） | 07-advanced-trees | ⬜ | ⬜ |
+| 7 | 高级搜索树（伸展树/B树/红黑树） | [07-advanced-trees](07-advanced-trees/) | ✅ | ✅ |
 | 8 | 优先级队列与堆 | 08-priority-queue | ⬜ | ⬜ |
 | 9 | 散列 | 09-hashing | ⬜ | ⬜ |
 | 10 | 图算法（遍历/最短路/生成树） | 10-graphs | ⬜ | ⬜ |
