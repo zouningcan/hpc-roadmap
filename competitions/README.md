@@ -35,3 +35,33 @@
 - 行尾必须 LF（Windows 记事本会引入 CRLF 导致脚本失效）
 - 平台是 ARM 鲲鹏：向量化是 NEON 不是 x86 AVX
 - 必交 writeup.md，赛后人工 Code Review
+
+## 评分规则总结（2026-09-05 网上查证 + 真题提取）
+
+### 一、OJ 式校内/区域赛（HelloHPC 模式，也是复旦选拔的参照系）
+
+每题独立公式化评分，两种模式：
+
+**模式 A：运行时间型**（WRF 题）
+- 正确性门槛分 + 时间插值分各占一半
+- `score = 50 × (ln(t_zero) − ln(t_your)) / (ln(t_zero) − ln(t_full))`
+- 对数插值 → **离满分远时每分钟优化都值钱，逼近上限收益递减**
+- WRF 实例：编译+正确 = 50 分；运行 15min = 0 分、10.5min = 50 分
+
+**模式 B：吞吐率型**（Graph500 题）
+- `score = clip(((实际 − 基础) / (满分 − 基础))², 0, 1) × 权重`（bfs 60% + sssp 40% 调和平均）
+- 平方插值 → **起步阶段不值钱，越接近满分每一分 TEPS 越贵**（与模式 A 相反）
+
+**共同纪律**：先对再快（正确性门槛 + 严禁重定向/篡改输出）；编译题必须真从源码编译（用集群自带版本 = 作弊）；超时强杀；writeup 人工复审。
+
+### 二、三大国际赛（查证：2026-09）
+
+| 赛 | 赛制 | 功耗墙（核心变量） | 评分构成 |
+|----|------|------|------|
+| ASC | 初赛线上（赛题作业+报告）→ 决赛现场 ~5 天自建集群 | 3000W 传统；ASC25 4000W；ASC26 5000W+单机 2000W | HPL+HPCG 基准 + 应用题（近年 LLM/AI4S：引力波、AlphaFold 等）+ 答辩 |
+| SC SCC | 6 人队，赞助硬件，赛前基准上分 + 现场 48h 连轴 | 固定上限（SC25 = 4500W），全程监控 | HPL/HPCG/IO500 基准 + 真实应用 + 复现类任务（reproducibility）+ 突发神秘题 + 面试，综合积分 |
+| ISC SCC | 欧洲场，线上+线下 | 功耗封顶 | 微基准 + HPC 应用 + 现场任务 |
+
+**共同哲学**：①**每瓦性能 > 峰值性能**——功耗墙是硬约束，超了直接判负，降频省电反而总分高；②基准分只是门槛，应用优化和现场应变才是拉分项；③先正确后速度一以贯之。
+
+来源：[SC25 SCC 官方](https://sc25.supercomputing.org/students/student-cluster-competition/)、[HPCwire SC25](https://www.hpcwire.com/off-the-wire/scc25-students-power-up-for-the-ultimate-hpc-challenge-at-sc25/)、[MGHPCC 2022 报告](https://mghpcc.org/2022-sc-student-cluster-competition/)、[ISC SCC](https://isc-hpc.com/program/student-cluster-competition/)、[UESTC ASC26 报道](https://info.uestc.edu.cn/info/1014/4384.htm)、[百度百科第十届 ASC](https://baike.baidu.com/item/%E7%AC%AC%E5%8D%81%E5%B1%8AASC%E4%B8%96%E7%95%8C%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%B6%85%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AB%9E%E8%B5%9B/62915942)
