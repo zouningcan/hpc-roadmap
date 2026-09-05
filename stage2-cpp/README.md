@@ -19,5 +19,5 @@
 | 10 | 优先队列与堆 | [10-pqheap](10-pqheap/) | L18 | ✅ | ✅ |
 | 11 | 链表 | [11-lists](11-lists/) | L19-L20 | ✅ | ✅ |
 | 12 | 二叉树/BST/Huffman | [12-trees](12-trees/) | L21-L23 | ✅ | ✅ |
-| 13 | 哈希 | 13-hashing | L24 | ⬜ | ⬜ |
+| 13 | 哈希 | [13-hashing](13-hashing/) | L24 | ✅ | ✅ |
 | 14 | 图与最短路 | 14-graphs | L25-L27 | ⬜ | ⬜ |
