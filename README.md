@@ -14,14 +14,16 @@
 
 ## 阶段导览
 
-| 阶段 | 内容 | 模块数 | 状态 |
-|------|------|--------|------|
+> 表中"生产"= 讲义+练习+答案三件套是否齐备；个人学习进度见 [progress/progress.md](progress/progress.md)。
+
+| 阶段 | 内容 | 模块数 | 生产状态 |
+|------|------|--------|----------|
 | [stage1-tools](stage1-tools/) | MIT《The Missing Semester》 | 11 讲 | ✅ **完成（11/11）** 2026-09-05 |
 | [stage2-cpp](stage2-cpp/) | Stanford CS106B（C++ 编程抽象） | 14 模块（按官方28讲聚类） | ✅ **完成（14/14）** 2026-09-05 |
-| [stage3-dsa](stage3-dsa/) | 清华邓俊辉《数据结构》 | ~11 模块 | ⬜ 待建 |
-| [stage4-parallel](stage4-parallel/) | Slurm/perf/OpenMP/MPI/CUDA/CSE234 | ~8 模块 | ⬜ 待建 |
+| [stage3-dsa](stage3-dsa/) | 清华邓俊辉《数据结构》 | 11 模块 | 🔄 进行中（01-07 ✅，08-11 ⬜） |
+| [stage4-parallel](stage4-parallel/) | Slurm/perf/OpenMP/MPI/CUDA/CSE234 | 8 模块 | 🔄 进行中（01 ✅，02-08 ⬜） |
 
-另有：[competitions/](competitions/)（三大竞赛赛制 + HelloHPC 真题分析）、[docs/00-路线总览.md](docs/00-路线总览.md)（原始路线图）。
+另有：[competitions/](competitions/)（三大竞赛赛制 + 评分规则 + HelloHPC 真题分析）、[docs/00-路线总览.md](docs/00-路线总览.md)（原始路线图展开）、[docs/01-课程溯源.md](docs/01-课程溯源.md)（**每个模块的官方教材源头图谱**，进什么料一目了然）。
 
 ## 怎么用
 
