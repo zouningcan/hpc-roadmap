@@ -30,7 +30,8 @@
 
 | # | 模块 | 状态 |
 |---|------|------|
-| 1 | 集群与 Slurm 调度 | 🔄 授课中 2026-09-05（考试驱动提前开课：Missing Semester 第 6-11 讲暂停） |
+| 1 | 集群与 Slurm 调度 | 🔄 授课中 2026-09-05（考试驱动提前开课：Missing Semester 第 6-11 讲暂停；Q5 待答） |
+| （预讲）03-openmp 开讲案例 | 华科 sum_array/dot_product 归约题已提前讲授优化阶梯（reduction 三件事/OpenMP+SIMD 组合/memory-bound 天板/-ffast-math 坑）；布置 WSL 实测加速比作业 |
 
 ## 第 5 讲已收卷（结课 2026-09-05）
 
