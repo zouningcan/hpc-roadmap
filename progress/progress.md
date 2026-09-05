@@ -32,7 +32,7 @@
 ## 当前待交作业（第 5 讲 命令行环境）
 - [x] Q1 复仇题：⏭️ 跳过（用户："这种不用背"）——SIGHUP 链入突袭库滚动复习
 - [x] Q2 概念：✅ 2026-09-05（"TERM 留余地可询问保存 / KILL 拔线无缓和、卡死时用"——本质对；已补术语：可捕获性，及 KILL 不留清理机会的风险）
-- [x] Q3 动手：✅ TERM→Terminated、STOP→Stopped 全中；输出里 Running+Stopped 双行=异步通知竞态已讲；CONT 步漏跑；末尾 pkill sleep 踩雷：SIGTERM 发给 STOP 态进程会 pending 不死（signal(7)），待 pgrep 验证+`pkill -9` 补杀；& 的机制（fork 不 wait/作业号 vs PID 两套地址/异步类比）已系统讲授
+- [x] Q3 动手：✅ 收卷。TERM→Terminated、STOP→Stopped 全中；& 机制已系统讲授（fork 不 wait/作业号 vs PID 两套地址/C++ 异步类比）。**学长翻车记录**：预测"STOP 态进程收 SIGTERM 会 pending 不死"，实验证明错了——sleep 没装处理器，TERM 默认处置=终止，Linux 对未被捕获的致命信号会立刻终结停止态进程；"挂起等待"只适用于被**捕获或阻塞**的信号。学习者实验推翻学长理论，方法本身满分。pgrep（进程表上的 grep）/ -a（PID+完整命令行）/ -f（匹配范围扩到完整命令行）已讲授；bash 的 Terminated 通知是异步的（下个提示符前才报）
 - [ ] Q4 动手：解读自己 ~/.ssh/config 每行含义（含：当年为什么写 Port 443）
 - [ ] Q5 快答：nohup vs tmux 各自的"逃法"与适用场景
 （第 4 讲收卷记录：Q1 uniq"只看邻居"机制✅；Q2 正则阅读 4/5+替换端 \1 占位符✅；Q3 口头预判出并列✅但预测 winner 错——GNU sort 默认 last-resort 整行兜底、-r 连兜底一起翻转→实际 root 赢，"严格大于才换位"是 -s 稳定模式的行为；实测输出未贴，赌局未裁决；Q4 sed 自截断两步时间线讲透+实验跑、一句话复述未收——两层模型第 4 次出场未闭环；Q5 两语境 $1 / sort -n -k 参数讲授即收，入突袭库）
