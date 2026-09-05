@@ -8,7 +8,7 @@
 | # | 模块 | 目录 | 讲义 | 练习 |
 |---|------|------|------|------|
 | 1 | 计算与算法基础（复杂度/迭代与递归/动态规划） | [01-fundamentals](01-fundamentals/) | ✅ | ✅ |
-| 2 | 向量 Vector | 02-vector | ⬜ | ⬜ |
+| 2 | 向量 Vector | [02-vector](02-vector/) | ✅ | ✅ |
 | 3 | 列表 List | 03-list | ⬜ | ⬜ |
 | 4 | 栈与队列 | 04-stack-queue | ⬜ | ⬜ |
 | 5 | 串与 KMP | 05-string-kmp | ⬜ | ⬜ |
