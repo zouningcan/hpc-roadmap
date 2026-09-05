@@ -17,7 +17,7 @@
 | 阶段 | 内容 | 模块数 | 状态 |
 |------|------|--------|------|
 | [stage1-tools](stage1-tools/) | MIT《The Missing Semester》 | 11 讲 | ✅ **完成（11/11）** 2026-09-05 |
-| [stage2-cpp](stage2-cpp/) | Stanford CS106B（C++ 编程抽象） | 14 模块（按官方28讲聚类） | 🔄 1/14 |
+| [stage2-cpp](stage2-cpp/) | Stanford CS106B（C++ 编程抽象） | 14 模块（按官方28讲聚类） | ✅ **完成（14/14）** 2026-09-05 |
 | [stage3-dsa](stage3-dsa/) | 清华邓俊辉《数据结构》 | ~11 模块 | ⬜ 待建 |
 | [stage4-parallel](stage4-parallel/) | Slurm/perf/OpenMP/MPI/CUDA/CSE234 | ~8 模块 | ⬜ 待建 |
 
