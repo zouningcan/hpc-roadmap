@@ -4,7 +4,7 @@
 
 | # | 模块 | 目录 | 讲义 | 练习 |
 |---|------|------|------|------|
-| 1 | 集群与 Slurm 调度 | 01-slurm-cluster | ⬜ | ⬜ |
+| 1 | 集群与 Slurm 调度 | 01-slurm-cluster | ✅ | ✅ |
 | 2 | 性能剖析：perf / Nsight / VTune | 02-profiling | ⬜ | ⬜ |
 | 3 | OpenMP 共享内存并行 | 03-openmp | ⬜ | ⬜ |
 | 4 | MPI 消息传递并行 | 04-mpi | ⬜ | ⬜ |
