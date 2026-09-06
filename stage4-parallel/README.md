@@ -10,7 +10,8 @@
 - **04 MPI**：[LLNL MPI 教程](https://hpc-tutorials.llnl.gov/mpi/)；[mpitutorial.com](https://mpitutorial.com/tutorials/)（有中文版入口）
 - **05 CUDA / PMPP**：教材《Programming Massively Parallel Processors》4th ed（Hwu/Kirk/El Hajj）；[NVIDIA DLI 免费课](https://www.nvidia.com/en-us/training/)
 - **经典公开课（整体并行观）**：CMU 15-418（cs.cmu.edu/~418，YouTube 全套录像）；Berkeley CS267 Applications of Parallel Computers（sites.google.com/lbl.gov 搜最新学期，YouTube 全套）
-- **07 CSE234**：[UCSD CSE234 W25 主页](https://haoailab.com/cse234-w25/)（Hao Zhang，Data Systems for ML）；[教学大纲](https://haoailab.com/cse234-w25/syllabus/)；[UCSD 公开录像](https://podcast.ucsd.edu/watch/wi25/cse234_a00/1)；[往期 wi23](https://cseweb.ucsd.edu/classes/wi23/cse234-a/)
+- **07 CSE234**：[UCSD CSE234 W25 主页](https://haoailab.com/cse234-w25/)（Hao Zhang，Data Systems for ML；**前身为 DSC 291 S24，故常写作 234/291**）；[教学大纲](https://haoailab.com/cse234-w25/syllabus/)；[UCSD 公开录像](https://podcast.ucsd.edu/watch/wi25/cse234_a00/1)；[B 站中英字幕全集](https://www.bilibili.com/video/BV1YSw4zDEF5/)；[课程网站源仓库](https://github.com/hao-ai-lab/cse234-w25)（fork 自 dsc291-s24）；[往期 wi23](https://cseweb.ucsd.edu/classes/wi23/cse234-a/)
+- **课号勘误（2026-09-06 查证）**：CSE 234 **不教 MPI/OpenMP**——它的"并行"是 ML 并行策略（数据/张量/流水线并行，底层 NCCL）。UCSD 真正的传统并行编程课是 CSE 160（本科）/ CSE 260（研究生，覆盖 MPI/OpenMP）；SDSC 超算中心另有 [MPI/OpenMP 实训](https://hpc-training.sdsc.edu/hpc-training-docs/sdsc-summer-institute-2023/6.1a_parallel_computing_mpi_openmp/)。本仓库 MPI/OpenMP 学习仍以 LLNL 两门教程为主
 - **08 基准**：[HPL](https://www.netlib.org/benchmark/hpl/)；[HPCG](https://www.hpcg-benchmark.org/)
 
 | # | 模块 | 目录 | 讲义 | 练习 |
