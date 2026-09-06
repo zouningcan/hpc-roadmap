@@ -14,7 +14,9 @@
 | 5 | 串与 KMP | [05-string-kmp](05-string-kmp/) | ✅ | ✅ |
 | 6 | 树：二叉树/BST/AVL | [06-trees](06-trees/) | ✅ | ✅ |
 | 7 | 高级搜索树（伸展树/B树/红黑树） | [07-advanced-trees](07-advanced-trees/) | ✅ | ✅ |
-| 8 | 优先级队列与堆 | 08-priority-queue | ⬜ | ⬜ |
-| 9 | 散列 | 09-hashing | ⬜ | ⬜ |
-| 10 | 图算法（遍历/最短路/生成树） | 10-graphs | ⬜ | ⬜ |
-| 11 | 排序 | 11-sorting | ⬜ | ⬜ |
+| 8 | 优先级队列与堆 | [08-priority-queue](08-priority-queue/) | ✅ | ✅ |
+| 9 | 散列 | [09-hashing](09-hashing/) | ✅ | ✅ |
+| 10 | 图算法（遍历/最短路/生成树） | [10-graphs](10-graphs/) | ✅ | ✅ |
+| 11 | 排序 | [11-sorting](11-sorting/) | ✅ | ✅ |
+
+> **🎉 stage3 生产完成 2026-09-06**：11/11 模块三件套齐备。结业标准 = 11-sorting/exercises.md 全卷通过。

@@ -17,10 +17,12 @@
 | # | 模块 | 目录 | 讲义 | 练习 |
 |---|------|------|------|------|
 | 1 | 集群与 Slurm 调度 | [01-slurm-cluster](01-slurm-cluster/) | ✅ | ✅ |
-| 2 | 性能剖析：perf / Nsight / VTune | 02-profiling | ⬜ | ⬜ |
+| 2 | 性能剖析：perf / Nsight / VTune | [02-profiling](02-profiling/) | ✅ | ✅ |
 | 3 | OpenMP 共享内存并行 | [03-openmp](03-openmp/) | ✅ | ✅ |
 | 4 | MPI 消息传递并行 | [04-mpi](04-mpi/) | ✅ | ✅ |
-| 5 | CUDA GPU 编程基础 | 05-cuda | ⬜ | ⬜ |
-| 6 | 进阶优化：SIMD/NEON、访存、编译器 | 06-advanced-opt | ⬜ | ⬜ |
+| 5 | CUDA GPU 编程基础 | [05-cuda](05-cuda/) | ✅ | ✅ |
+| 6 | 进阶优化：SIMD/NEON、访存、编译器 | [06-advanced-opt](06-advanced-opt/) | ✅ | ✅ |
 | 7 | GPU 与 ML 系统（CSE234 精要） | [07-gpu-ml-systems](07-gpu-ml-systems/) | ✅ | ✅ |
-| 8 | HPL/HPCG 基准实战 | 08-benchmarks | ⬜ | ⬜ |
+| 8 | HPL/HPCG 基准实战 | [08-benchmarks](08-benchmarks/) | ✅ | ✅ |
+
+> **🎉 stage4 生产完成 2026-09-06**：8/8 模块三件套齐备。结业标准 = 08-benchmarks/exercises.md 全卷通过。

@@ -32,9 +32,9 @@
 
 ⬜ 学习未开始（预计第 10 周）｜ 仓库生产 🔄 7/11（01-07 齐备，08-11 待建）
 
-## 仓库生产动态（stage4）
+## 仓库生产动态
 
-- 2026-09-06：**03-openmp / 04-mpi / 07-gpu-ml-systems 三模块完工**（三件套齐），stage4 生产进度 4/8（剩 02-profiling、05-cuda、06-advanced-opt、08-benchmarks）。CSE234 课号勘误：前身 DSC 291 S24，且课内不含 MPI/OpenMP（已在 stage4 README 与溯源文档注明）。03 的归约案例即 2026-09-05 预讲内容正式归位；用户 OpenMP 加速比实测作业（exercises B3）待交。
+- 2026-09-06：**🏁 全仓库生产完工 45/45**。本轮新增 8 模块三件套：stage3-dsa 08 堆/09 散列/10 图/11 排序（OJ 精神手写，教材目录驱动）+ stage4 02-profiling（perf 三件套/剖析三纪律）/05-cuda（PMPP 骨架/纸上执行）/06-advanced-opt（NEON/位技巧/编译器 flag）/08-benchmarks（HPL.dat 扫参/功耗墙/Graph500 脚本预演）。stage3 11/11、stage4 8/8 均收官；学习进度仍为 stage1 L1-L5 + stage4-01 授课中。用户待交：OpenMP 加速比实测（03-exercises B3）、Slurm Q5。
 
 ## 阶段 4：并行编程 + UCSD CSE234（学习进度）
 
