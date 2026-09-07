@@ -29,6 +29,7 @@
 
 ## 怎么用
 
+0. **选课看 [学习菜单.md](学习菜单.md)**——全部目录×学习状态一页扫（结课后由学长维护）
 1. 按阶段顺序学；每模块先读 `notes.md`，再做 `exercises.md`
 2. 做错的题记进 `progress/progress.md` 的错题本，`drills/` 会从中抽题
 3. WSL 侧路径：`/mnt/d/znc/智谱/hpc-roadmap`（远端：https://github.com/zouningcan/hpc-roadmap）
