@@ -40,10 +40,16 @@
 
 | # | 模块 | 状态 |
 |---|------|------|
-| 1 | 集群与 Slurm 调度 | 🔄 授课中 2026-09-05（考试驱动提前开课：Missing Semester 第 6-11 讲暂停；Q5 待答） |
+| 1 | 集群与 Slurm 调度 | ✅ 结课 2026-09-07 | **重考 Q1-Q5 全过结课**：Q1 半对（"调度器=登录节点"混淆，b 补讲后过；按用户要求不入错题本）；Q2 过（salloc 补"租场地"精确定义）；Q3 超预期（%j+stderr 分流+mkdir -p+module purge+srun 作业步五处工程细节，小注：队列名从题面读 kp_run）；Q4 五中（两预设病灶+两条自我延伸，第5条修精度：MPI 程序需 srun 起 rank ≠ 不可直接执行）；Q5 处方对（purge/--export=NONE）病理补讲（load=改当前 shell 环境变量+记清单，前插非覆盖；sbatch 新 bash 不可靠继承→依赖声明内聚） |
 | （预讲）03-openmp 开讲案例 | 华科 sum_array/dot_product 归约题已提前讲授优化阶梯（reduction 三件事/OpenMP+SIMD 组合/memory-bound 天板/-ffast-math 坑）；布置 WSL 实测加速比作业 |
 
-## 当前待交作业（阶段 4 第 1 讲：集群与 Slurm）
+## 当前待交作业（阶段 4）
+
+- [ ] OpenMP 加速比实测：03-openmp/exercises.md **B3**——`gcc -O2 -fopenmp sum.c` 跑 1 线程 vs 8 线程，贴两个耗时，答"为什么不是 8 倍"（提示已给：1.6GB 双数组、算术强度 ~0.25 flop/B）
+- [ ] 08-benchmarks **B1**：WSL 从源码编译 HPL 跑通（OpenMPI+OpenBLAS，读 PASS 行、算效率）
+- [ ] 08-benchmarks **C3**：Graph500 风格 sbatch 脚本自测（Q3 满分脚本的考试版）
+
+## 历史收卷记录（已结科目）
 - [x] Q1 概念：✅ 2026-09-05（两条被杀理由全对：非计算设计+公共资源；小修正："调度"由 Slurm 控制服务干，登录节点只是提交入口）
 - [x] Q2 概念：✅ 半对——"解决计算节点分配"对；sbatch/srun/salloc 不熟→已细讲（留作业/亲自跑/租场地三模式+squeue 状态码+salloc 内嵌 srun 关系）
 - [x] Q3 动手：⏭️ 跳过（用户决定；写 sbatch 脚本的能力靠 Q4 病例分析代偿，后续上真集群必补）
