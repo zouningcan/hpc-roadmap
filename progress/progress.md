@@ -16,7 +16,7 @@
 | 4 | 数据整理 | ✅ 结课 2026-09-05 | Q1/Q2/Q5 收；regexone 通关（加分✅，含 HTML/日志题+`-k` 行列混淆纠正+awk 系统讲授）；Q3 跑完但 c) 输出未贴（root/admin 赌局未裁决）；Q4 实验跑但两步复述未收——用户决定直接结课，两层模型第 4 次出场未闭环，入突袭库 |
 | 5 | 命令行环境 | ✅ 结课 2026-09-05 | Q2/Q3✅（Q3 学长 pending 预测被实验推翻：仅 caught/blocked 信号才挂起）；Q1 跳过（SIGHUP 链入突袭库）；Q5 收（SIGHUP 第3次写成 signup 后纠正、复述通过）；Q4 讲授即收（ssh config 逐行+443 故事）；pgrep -a/-f、& 机制（fork 不 wait/作业号 vs PID）、bash 异步通知均已讲 |
 | 6 | 版本控制（Git） | ✅ 结课 2026-09-07 | 摸底 6 题：T1 三区模型/T2 clone-pull-push 实操过关（pull="下载并合并"有真实操体感）；T3a 分支=commit 指针✅；盲区补讲四个：T3b 切分支=换投影、T4 origin/main 方向答反（git remote -v 验收实操✅，首次亲手 git）、T5 amend 只属未见人 commit+强推红线、T6 fetch first=pull 解冲突再 push |
-| 7 | 调试及性能分析 | ⬜ | |
+| 7 | 调试及性能分析 | ✅ 结课 2026-09-07 | Q1 time 三态✅✅（b 超纲：user/real≈平均核数定量解读 15s/8s≈1.9核）；Q2 pdb n/s 同构✅（补 gdb next/step）；Q3 Heisenbug✅（命名+测不准类比全对，补"打印改时序掩盖竞态"落地）；Q4 剖析先行✅（补 why：直觉热点常错+无 baseline 无法验证）。课堂增量已回填 notes：user/real 定量解读+并行度三步诊断流（htop→pidstat -t→拍栈）+病因对照表 |
 | 8 | 元编程 | ⬜ | |
 | 9 | 查找与文件 | ⬜ | |
 | 10 | 安全和密码学 | ⬜ | |
